@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  border: 1px solid red;
+  gap: 1.26rem;
+  padding: 1rem 1.2rem 1.2rem 1rem;
+}
+.headingFolderName {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  color: #2c423f;
+  font-weight: 600;
+}
+.folderIcons {
+  width: 2.9rem;
+  height: 2.9rem;
+  cursor: pointer;
+  color: #4c5b61;
+}
+.folderIcons:hover {
+  color: #1f282b;
+  transition: 0.3s;
+  cursor: pointer;
+}
